@@ -71,6 +71,7 @@ const Home: NextPage = () => {
   };
 
   return (
+
     <div className="flex max-w-5xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
       <Head>
         <title>Dating Bio Generator</title>
@@ -89,7 +90,7 @@ const Home: NextPage = () => {
           <p>Star on GitHub</p>
         </a>
         <h1 className="sm:text-6xl text-4xl max-w-[708px] font-bold text-slate-900">
-          Generate your next tinder/bumble/hinge app bio using chatGPT
+          Need a Tinder Bio? Not sure how to respond to a text? Use DateGPT
         </h1>
         <p className="text-slate-500 mt-5">67,824 bios generated so far. countless dates secured</p>
         <div className="max-w-xl w-full">
