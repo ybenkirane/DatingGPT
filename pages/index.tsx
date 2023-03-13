@@ -90,7 +90,7 @@ const Home: NextPage = () => {
           <p>Star on GitHub</p>
         </a>
         <h1 className="sm:text-6xl text-4xl max-w-[708px] font-bold text-slate-900">
-          Need a Tinder Bio? Not sure how to respond to a text? Use DateGPT
+          Need a clever bio? Use DateGPT
         </h1>
         <p className="text-slate-500 mt-5">67,824 bios generated so far. countless dates secured</p>
         <div className="max-w-xl w-full">
@@ -116,7 +116,7 @@ const Home: NextPage = () => {
             rows={4}
             className="w-full rounded-md border-gray-300 shadow-sm focus:border-black focus:ring-black my-5"
             placeholder={
-              "e.g. Senior Developer Advocate @vercel. Tweeting about web development, AI, and React / Next.js. Writing nutlope.substack.com."
+              "e.g. Physics graduate student living in montreal, studying at McGill. Russian and Moroccan background, grew up in Casablanca. Love hiking and boxing."
             }
           />
           <div className="flex mb-5 items-center space-x-3">
