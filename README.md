@@ -1,4 +1,4 @@
-# [DateGPT](https://dategpt.vecel.app/)
+# [DateGPT](https://dategpt.vercel.app/)
 
 This project generates dating app bios for you using AI.
 
