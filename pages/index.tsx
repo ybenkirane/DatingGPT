@@ -23,14 +23,14 @@ const Home: NextPage = () => {
     }
   };
 
-  const prompt = `Generate 2 ${vibe} Tinder biographies with no hashtags and clearly labeled "1." and "2.". ${
+  const prompt = `Generate 2 ${vibe} Tinder biographies with no hashtags and clearly labeled "1.", "2.", and "3.". ${
     vibe === "Funny"
       ? "Make sure there is a joke in there and it's a little ridiculous."
       : null
   }
-      Make sure each generated biography is less than 160 characters, has short sentences that are found in Tinder bios, and base them on this context: ${bio}${
+      Make sure each generated biography is less than 100 characters, has short sentences that are found in Tinder bios, and base them on this context: ${bio}${
     bio.slice(-1) === "." ? "" : "."
-  }`;
+  } Make them as powerful as possible, not geeky or nerdy, and confident.`;
 
   const generateBio = async (e: any) => {
     e.preventDefault();
