@@ -23,7 +23,7 @@ const Home: NextPage = () => {
     }
   };
 
-  const prompt = `Generate 3 extremly ${vibe} Tinder dating profile bios with no hashtags and clearly labeled "1.", "2.", and "3.". ${
+  const prompt = `Generate 3 extremly ${vibe} Tinder dating profile bios with no hashtags and clearly labeled "1:", "2:", and "3:". ${
     vibe === "Funny"
       ? "Make sure there is a joke in there and it's a little ridiculous."
       : null
@@ -164,8 +164,7 @@ const Home: NextPage = () => {
               <div className="space-y-8 flex flex-col items-center justify-center max-w-xl mx-auto">
                 {generatedBios
                   .substring(generatedBios.indexOf("1") + 4)
-                  .split("2.")
-                  .split("3.")
+                  .split(":")
                   .map((generatedBio) => {
                     return (
                       <div
