@@ -137,7 +137,7 @@ const Home: NextPage = () => {
             rows={4}
             className="w-full rounded-md border-gray-300 shadow-sm focus:border-black focus:ring-black my-5"
             placeholder={
-              "e.g. Physics graduate student living in montreal, studying at McGill. Russian and Moroccan background, grew up in Casablanca. Love hiking and boxing."
+              "e.g. Physics graduate student, from Casablanca to Montreal, House music, avid boxer, 6ft6"
             }
           />
           <div className="flex mb-5 items-center space-x-3">
