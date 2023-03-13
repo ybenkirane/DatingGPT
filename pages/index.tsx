@@ -74,8 +74,8 @@ const Home: NextPage = () => {
 
     <div className="flex max-w-5xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
       <Head>
-        <title>Dating Bio Generator</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>DateGPT</title>
+        <link rel="icon" href="/heartLogo.png" />
       </Head>
 
       <Header />
@@ -92,7 +92,7 @@ const Home: NextPage = () => {
         <h1 className="sm:text-6xl text-4xl max-w-[708px] font-bold text-slate-900">
           Need a clever bio? Use DateGPT
         </h1>
-        <p className="text-slate-500 mt-5">67,824 bios generated so far. countless dates secured</p>
+        <p className="text-slate-500 mt-5">3,824 dates secured so far ... </p>
         <div className="max-w-xl w-full">
           <div className="flex mt-10 items-center space-x-3">
             <Image
