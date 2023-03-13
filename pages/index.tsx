@@ -25,7 +25,12 @@ const Home: NextPage = () => {
 
   const prompt = `Generate 2 extremly ${vibe} Tinder dating profile bios with no hashtags and clearly labeled "1." and "2.". ${
     vibe === "Funny"
-      ? "Make sure there is a joke in there and it's a little ridiculous."
+      ? "Make sure there is a joke in there and it's a super ridiculous. Can use a few puns. Should be hilarious, not lame. "
+      : null
+  }
+  ${
+    vibe === "Flirty"
+      ? "Make sure it is romantic and very forward; compliment the person."
       : null
   }
   ${
@@ -35,9 +40,15 @@ const Home: NextPage = () => {
   }
   ${
     vibe === "Gangster"
-      ? "Make sure the it uses hood slang. Something a gangster criminal from the poor hood would say."
+      ? "Make sure the it uses hood slang and some grammatical mistakes. Something a gangster criminal from the poor hood would say."
       : null
   }
+  ${
+    vibe === "European Snob"
+      ? "Speak like a European snob, completely daddy's money. Make sure to be super condescending. Use British and French old money slang."
+      : null
+  }
+  
       Make sure each generated biography is less than 160 characters, has short sentences that are found in Tinder bios, and base them on this context: ${bio}${
     bio.slice(-1) === "." ? "" : "."
   } `;

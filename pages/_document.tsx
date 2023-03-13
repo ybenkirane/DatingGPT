@@ -8,16 +8,16 @@ class MyDocument extends Document {
           <link rel="icon" href="/heartLogo.png" />
           <meta
             name="description"
-            content="Generate your next Tinder bio in seconds."
+            content="Generate your next bio in seconds."
           />
           <meta property="og:site_name" content="dategpt.vercel.app" />
           <meta
             property="og:description"
-            content="Generate your next Tinder bio in seconds."
+            content="Generate your next bio in seconds."
           />
-          <meta property="og:title" content="Tinder Bio Generator" />
+          <meta property="og:title" content="DateGPT: AI-Powered Bio Generator" />
           <meta name="tinder:card" content="summary_large_image" />
-          <meta name="tinder:title" content="Tinder Bio Generator" />
+          <meta name="tinder:title" content="DateGPT AI-Powered Bio Generator" />
           <meta
             name="tinder:description"
             content="Generate your next Tinder bio in seconds."
