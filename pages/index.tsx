@@ -23,13 +23,13 @@ const Home: NextPage = () => {
     }
   };
 
-  const prompt = `Generate 3 extremly ${vibe} Tinder dating profile bios with no hashtags and clearly labeled "1:", "2:", and "3:". ${
+  const prompt = `Generate 3 extremly ${vibe} Tinder dating profile bios with no hashtags and clearly labeled "1." and "3.". ${
     vibe === "Funny"
       ? "Make sure there is a joke in there and it's a little ridiculous."
       : null
   }
       Make sure each generated biography is less than 160 characters, has short sentences that are found in Tinder bios, and base them on this context: ${bio}${
-    bio.slice(-1) === ":" ? "" : ":"
+    bio.slice(-1) === "." ? "" : "."
   } Make sure they don't come off as needy or overly boring; they should be exciting. `;
 
   const generateBio = async (e: any) => {
@@ -163,8 +163,8 @@ const Home: NextPage = () => {
               </div>
               <div className="space-y-8 flex flex-col items-center justify-center max-w-xl mx-auto">
                 {generatedBios
-                  .substring(generatedBios.indexOf("1") + 4)
-                  .split(":")
+                  .substring(generatedBios.indexOf("1") + 3)
+                  .split("2.")
                   .map((generatedBio) => {
                     return (
                       <div
