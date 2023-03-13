@@ -28,6 +28,16 @@ const Home: NextPage = () => {
       ? "Make sure there is a joke in there and it's a little ridiculous."
       : null
   }
+  ${
+    vibe === "Poetic"
+      ? "Make sure the format is in the form of a short poem. It should rhyme."
+      : null
+  }
+  ${
+    vibe === "Gangster"
+      ? "Make sure the it uses hood slang. Something a gangster criminal from the poor hood would say."
+      : null
+  }
       Make sure each generated biography is less than 160 characters, has short sentences that are found in Tinder bios, and base them on this context: ${bio}${
     bio.slice(-1) === "." ? "" : "."
   } `;
