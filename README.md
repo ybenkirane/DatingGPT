@@ -2,7 +2,7 @@
 
 This project generates dating app bios for you using AI.
 
-[![DateGPT](./public/screenshotdategpt.png)](https://dategpt.vecel.app)
+[![DateGPT](./public/screenshotdategpt.png)](https://dategpt.vercel.app)
 
 ## How it works
 
