@@ -21,13 +21,7 @@ export default function Header() {
         target="_blank"
         rel="noreferrer"
       >
-        <Image
-          alt="Twitter Icon"
-          src="/twitterLogo.png"
-          className="sm:w-8 sm:h-[27px] w-8 h-[28px]"
-          width={32}
-          height={28}
-        />
+        
       </a>
     </header>
   );
