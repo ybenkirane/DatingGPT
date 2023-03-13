@@ -13,7 +13,7 @@ export default function Header() {
           height={32}
         />
         <h1 className="sm:text-4xl text-2xl font-bold ml-2 tracking-tight">
-          DateGPT: AI-Powered Guide to Getting Dates 
+          DateGPT: AI Assistant for Dating Apps 
         </h1>
       </Link>
       <a
