@@ -30,7 +30,7 @@ const Home: NextPage = () => {
   }
   ${
     vibe === "Flirty"
-      ? "Make sure it is romantic and very forward; compliment the person."
+      ? "Make sure it is romantic and very forward. Use romantic language and make sure to try and secure a date."
       : null
   }
   ${
@@ -40,12 +40,17 @@ const Home: NextPage = () => {
   }
   ${
     vibe === "Gangster"
-      ? "Usse hood gangster slang and grammatical mistakes. Make some allusions to rap and references to rap lyrics."
+      ? "Use hood gangster slang and grammatical mistakes. Use some rap references."
       : null
   }
   ${
-    vibe === "European Snob"
-      ? "Speak like a classy European snob, completely daddy's money. Make sure to be super condescending. Use British and French old money slang."
+    vibe === "Snobby European"
+      ? "Speak like a classy European snob, completely daddy's money. Use British and French old money slang, can be a little rude."
+      : null
+  }
+  ${
+    vibe === "Intelligent"
+      ? "Use technical, mathematical, and scientific language."
       : null
   }
   
