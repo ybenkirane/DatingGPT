@@ -163,8 +163,8 @@ const Home: NextPage = () => {
               </div>
               <div className="space-y-8 flex flex-col items-center justify-center max-w-xl mx-auto">
                 {generatedBios
-                  .substring(generatedBios.indexOf("1") + 3)
-                  .split("2.")
+                  .substring(generatedBios.indexOf("1") + 4)
+                  .split("2.", "3.")
                   .map((generatedBio) => {
                     return (
                       <div
