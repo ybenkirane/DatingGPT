@@ -8,27 +8,27 @@ class MyDocument extends Document {
           <link rel="icon" href="/favicon.ico" />
           <meta
             name="description"
-            content="Generate your next dating app bio in seconds."
+            content="Generate your next Twitter bio in seconds."
           />
-          <meta property="og:site_name" content="tinderbio.vercel.app" />
+          <meta property="og:site_name" content="twitterbio.com" />
           <meta
             property="og:description"
-            content="Generate your next dating app bio in seconds."
+            content="Generate your next Twitter bio in seconds."
           />
-          <meta property="og:title" content="Dating Bio Generator" />
-          <meta name="datingapp:card" content="summary_large_image" />
-          <meta name="datingapp:title" content="Dating Bio Generator" />
+          <meta property="og:title" content="Twitter Bio Generator" />
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="Twitter Bio Generator" />
           <meta
-            name="datingapp:description"
-            content="Generate your next datingapp bio in seconds."
+            name="twitter:description"
+            content="Generate your next Twitter bio in seconds."
           />
           <meta
             property="og:image"
-            content="https://tinderbio.vercel.app/og-image.png"
+            content="https://twitterbio.com/og-image.png"
           />
           <meta
-            name="datingapp:image"
-            content="https://tinderbio.vercel.app/og-image.png"
+            name="twitter:image"
+            content="https://twitterbio.com/og-image.png"
           />
         </Head>
         <body>
