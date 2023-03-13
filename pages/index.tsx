@@ -25,7 +25,7 @@ const Home: NextPage = () => {
 
   const prompt = `Generate 2 extremly ${vibe} Tinder dating profile bios with no hashtags and clearly labeled "1." and "2.". ${
     vibe === "Funny"
-      ? "Make sure there is a joke in there and it's a super ridiculous. Can use a few puns. Should be hilarious, not lame. "
+      ? "Make sure there is a joke in there and it's a super ridiculous. Use a few puns if applicable. Should be hilarious, not lame. Don't use the word funny or comedian."
       : null
   }
   ${
@@ -40,12 +40,12 @@ const Home: NextPage = () => {
   }
   ${
     vibe === "Gangster"
-      ? "Make sure the it uses hood slang and some grammatical mistakes. Something a gangster criminal from the poor hood would say."
+      ? "Usse hood gangster slang and grammatical mistakes. Make some allusions to rap and references to rap lyrics."
       : null
   }
   ${
     vibe === "European Snob"
-      ? "Speak like a European snob, completely daddy's money. Make sure to be super condescending. Use British and French old money slang."
+      ? "Speak like a classy European snob, completely daddy's money. Make sure to be super condescending. Use British and French old money slang."
       : null
   }
   
