@@ -29,7 +29,7 @@ const Home: NextPage = () => {
       : null
   }
       Make sure each generated biography is less than 160 characters, has short sentences that are found in Tinder bios, and base them on this context: ${bio}${
-    bio.slice(-1) === "." ? "" : "."
+    bio.slice(-1) === ":" ? "" : ":"
   } Make sure they don't come off as needy or overly boring; they should be exciting. `;
 
   const generateBio = async (e: any) => {
