@@ -23,7 +23,7 @@ const Home: NextPage = () => {
     }
   };
 
-  const bioPrompt = `Generate 2 extremly ${vibe} Tinder dating profile bios with no hashtags and clearly labeled "1." and "2.". ${
+  const prompt = `Generate 2 extremly ${vibe} Tinder dating profile bios with no hashtags and clearly labeled "1." and "2.". ${
     vibe === "Funny"
       ? "Make sure there is a joke in there and it's a super ridiculous. Use a few puns if applicable. Should be hilarious, not lame. Don't use the word funny or comedian."
       : null
@@ -68,7 +68,7 @@ const Home: NextPage = () => {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        bioPrompt,
+        prompt,
       }),
     });
 
